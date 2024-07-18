@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.btn-home {
+    border: none;
+    width: 92px;
+    height: 35px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding-top: 10px;
+}
+
+.btn-primary {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    margin-left: 20px;
+}
+
+/* header section */
+.nav-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Inter;
+    font-style: italic;
+}
+
+.menu-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    height: 100%;
+    padding: 0;
+}
+
+.nav-item-link {
+    margin-left: 0;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.nav-item-link>a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/* banner section */
+
+.banner-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content-container>h1 {
+    width: 520px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.banner-content-container>h1>span {
+    color: rgb(255, 255, 255);
+    font-family: 'Miama', sans-serif;
+    font-size: 148px;
+    font-weight: 400;
+}
+
+.banner-content-container {
+    width: 520px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-content-container>.btn-primary {}
