@@ -344,6 +344,7 @@ header {
         width: 97%;
         padding: 0;
         padding-left: 15px;
+        border: none;
     }
 
 
@@ -547,4 +548,93 @@ header {
         margin-top: 55px;
         font-size: 7px;
     }
+
+
+    /* habit section responsive starts here */
+    .habit-section-container {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border: 2px solid white;
+    }
+    
+    .habit-section-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .all-section-title {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 120%;
+        margin-bottom: 40px;
+    }
+    
+    .all-section-descrip {
+        margin-top: 0;
+        width: 90%;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .habit-section-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .habit-section-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 19px;
+    }
+    
+    .habit-section-img{
+        padding: 0;
+    }
+    
+    .habit-section-img>img {
+        border: 3px solid rgb(63, 62, 62);
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+    .habit-card-title {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .habit-card-descrip {
+        text-align: center;
+        width: 90%;
+        margin-top: 0;
+        color: rgba(245, 220, 220, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+
+
 }
