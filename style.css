@@ -90,6 +90,11 @@ header {
     padding: 0;
 }
 
+.drop-menu {
+    visibility: hidden;
+    display: none;
+}
+
 .nav-item-link {
     margin-left: 0;
     margin-right: 30px;
@@ -228,4 +233,237 @@ header {
     padding: 15px;
     color: rgb(230, 83, 60);
     margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive media*/
+@media screen and (max-width: 576px) {
+    body {
+        background: rgb(0, 0, 0);
+        width: 97%;
+    }
+
+    main {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    header {
+        margin: 0;
+        background: linear-gradient(180.00deg, rgba(37, 37, 37, 0.829), rgba(119, 119, 119, 0) 100%);
+        height: 1100px;
+        width: 97%;
+        padding: 0;
+        padding-left: 15px;
+    }
+
+
+
+    .btn-primary {
+        border: none;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        width: 45%;
+        height: 54px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        cursor: pointer;
+    }
+
+    .btn-secondary {
+        width: 45%;
+        height: 54px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 42px;
+        margin-left: 20px;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    /* header section */
+    .nav-container {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-title {
+        color: rgb(230, 83, 60);
+        font-weight: 800;
+        font-family: Inter;
+        font-style: italic;
+        width: 15%;
+    }
+
+    .menu-item-container {
+        visibility: hidden;
+        justify-content: end;
+    }
+
+
+    .nav-item-link{
+        display: none;
+    }
+
+    .drop-menu {
+        display: flex;
+        justify-content: end;
+        visibility: visible;
+        position: absolute;
+        display: inline;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    .drop-menu>a>img{        
+        width: 24px;
+        height: 24px;
+    }
+
+    /* banner section */
+
+    .banner-container {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-content-container {}
+
+    .banner-content-container>p {
+        width: 70%;
+        height: 78px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 40px;
+    }
+
+    .banner-content-container>h1 {
+        width: 75%;
+        height: 132px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .banner-content-container>h1>span {
+        color: rgb(255, 255, 255);
+        font-family: 'Miama', sans-serif;
+        font-size: 78px;
+        font-weight: 400;
+    }
+
+
+
+    .banner-img-container {
+        margin-top: 50px;
+        width: 40%;
+        min-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-left: -250px;
+        width: 353px;
+        height: 588px;
+    }
+
+    .small-card1 {
+        width: 40%;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding-left: 25px;
+        height: 88px;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 190px;
+    }
+
+    .small-card1>p {
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 1px;
+    }
+
+    .small-card1>h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 10px;
+    }
+
+    .small-card2 {
+        width: 40%;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 88px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -300px;
+    }
+
+
+
+    .small-card2>div>h1 {
+        color: rgb(250, 250, 249);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .small-card2>div>p {
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 4px;
+    }
+
+    .small-card2>div>span {
+        background: rgb(230, 83, 60);
+        border-radius: 50%;
+        width: 40%;
+        height: 40px;
+        padding: 15px;
+        color: rgb(230, 83, 60);
+        margin-top: 55px;
+        font-size: 7px;
+    }
 }
