@@ -23,6 +23,8 @@ main {
 
 header {
     background: linear-gradient(180.00deg, rgba(37, 37, 37, 0.829), rgba(119, 119, 119, 0) 100%);
+    width: 99%;
+    border: 2px solid red;
 }
 
 .btn-home {
@@ -235,8 +237,87 @@ header {
     margin-top: 55px;
 }
 
+/* habit section starts here */
 
+.habit-section-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid white;
+}
 
+.habit-section-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.all-section-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+
+.all-section-descrip {
+    margin-top: 0;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.habit-section-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.habit-section-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.habit-section-img{
+    padding: 0;
+}
+
+.habit-section-img>img {
+    border: 3px solid rgb(63, 62, 62);
+    width: 100%;
+    border-radius: 50%;
+}
+
+.habit-card-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.habit-card-descrip {
+    text-align: center;
+    width: 70%;
+    margin-top: 0;
+    color: rgba(245, 220, 220, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
 
 
 
@@ -318,7 +399,7 @@ header {
     }
 
 
-    .nav-item-link{
+    .nav-item-link {
         display: none;
     }
 
@@ -332,7 +413,7 @@ header {
         cursor: pointer;
     }
 
-    .drop-menu>a>img{        
+    .drop-menu>a>img {
         width: 24px;
         height: 24px;
     }
