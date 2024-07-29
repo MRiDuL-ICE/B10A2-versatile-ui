@@ -288,7 +288,7 @@ header {
     padding: 0;
 }
 
-.habit-section-img{
+.habit-section-img {
     padding: 0;
 }
 
@@ -318,6 +318,33 @@ header {
     font-weight: 400;
     line-height: 18px;
 }
+
+/* run-extra-section-container */
+
+.run-extra-section-container {
+    margin: 0 auto;
+    width: 75%;
+    border: 2px solid navajowhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 35px ;
+}
+
+.run-extra-section-container>img{
+    border-radius: 18px;
+    width: 46%;
+    object-fit: none;
+    object-position: 70% 35%;
+}
+
+
+
+
+
+
 
 
 
@@ -556,16 +583,16 @@ header {
         margin: 0 auto;
         margin-top: 5%;
         margin-bottom: 5%;
-        border: 2px solid white;
+        border: none;
     }
-    
+
     .habit-section-content {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         align-items: center;
     }
-    
+
     .all-section-title {
         text-align: center;
         color: rgb(255, 255, 255);
@@ -575,7 +602,7 @@ header {
         line-height: 120%;
         margin-bottom: 40px;
     }
-    
+
     .all-section-descrip {
         margin-top: 0;
         width: 90%;
@@ -586,7 +613,7 @@ header {
         line-height: 24px;
         text-align: center;
     }
-    
+
     .habit-section-card-container {
         display: flex;
         flex-direction: column;
@@ -594,7 +621,7 @@ header {
         align-items: center;
         margin-top: 40px;
     }
-    
+
     .habit-section-card {
         display: flex;
         flex-direction: column;
@@ -602,17 +629,17 @@ header {
         padding: 0;
         margin-bottom: 19px;
     }
-    
-    .habit-section-img{
+
+    .habit-section-img {
         padding: 0;
     }
-    
+
     .habit-section-img>img {
         border: 3px solid rgb(63, 62, 62);
         width: 100%;
         border-radius: 50%;
     }
-    
+
     .habit-card-title {
         text-align: center;
         color: rgb(255, 255, 255);
@@ -623,7 +650,7 @@ header {
         margin-bottom: 10px;
         text-align: center;
     }
-    
+
     .habit-card-descrip {
         text-align: center;
         width: 90%;
@@ -636,5 +663,41 @@ header {
     }
 
 
+    /* run extra section starts ,here */
+
+    .run-extra-section-container {
+        margin: 0 auto;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        border: none;
+    }
+    
+    .run-extra-section-container{
+        padding: 30px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+    
+    .run-extra-section-container>img{
+        border-radius: 18px;
+        margin-right: 5px;
+        width: 95%;
+        object-fit: fill;
+    }
+
+    .run-extra-content{
+        margin-bottom: 20px;
+    }
+
+    .run-extra-content>a{
+        width: 95%;
+    }
+    .run-extra-content>a>button{
+        width: 95%;
+    }
 
 }
