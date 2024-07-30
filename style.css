@@ -24,7 +24,6 @@ main {
 header {
     background: linear-gradient(180.00deg, rgba(37, 37, 37, 0.829), rgba(119, 119, 119, 0) 100%);
     width: 99%;
-    border: 2px solid red;
 }
 
 .btn-home {
@@ -244,7 +243,6 @@ header {
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 2px solid white;
 }
 
 .habit-section-content {
@@ -324,20 +322,73 @@ header {
 .run-extra-section-container {
     margin: 0 auto;
     width: 75%;
-    border: 2px solid navajowhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    padding: 35px ;
+    padding: 35px;
 }
 
-.run-extra-section-container>img{
+.run-extra-section-container>img {
     border-radius: 18px;
     width: 46%;
     object-fit: none;
     object-position: 70% 35%;
+}
+
+/* review-section starts here*/
+.review-section-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.review-card {
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.review-img>img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.client-name {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.client-review {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 
@@ -675,29 +726,88 @@ header {
         background: rgb(34, 34, 34);
         border: none;
     }
-    
-    .run-extra-section-container{
+
+    .run-extra-section-container {
         padding: 30px;
         padding-right: 10px;
         margin: 0 auto;
     }
-    
-    .run-extra-section-container>img{
+
+    .run-extra-section-container>img {
         border-radius: 18px;
         margin-right: 5px;
         width: 95%;
         object-fit: fill;
     }
 
-    .run-extra-content{
+    .run-extra-content {
         margin-bottom: 20px;
     }
 
-    .run-extra-content>a{
+    .run-extra-content>a {
         width: 95%;
     }
-    .run-extra-content>a>button{
+
+    .run-extra-content>a>button {
         width: 95%;
     }
+
+    /* review-section starts here*/
+.review-section-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.review-card {
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.review-img>img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.client-name {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.client-review {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.review-section-container>a>button{
+    width: 150px;
+}
+
 
 }
