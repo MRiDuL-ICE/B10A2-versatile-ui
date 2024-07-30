@@ -13,7 +13,7 @@
 
 body {
     background: rgb(0, 0, 0);
-    width: 100%;
+    width: 99%;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 
 header {
     background: linear-gradient(180.00deg, rgba(37, 37, 37, 0.829), rgba(119, 119, 119, 0) 100%);
-    width: 99%;
+    width: 100%;
 }
 
 .btn-home {
@@ -259,6 +259,7 @@ header {
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .all-section-descrip {
@@ -270,6 +271,7 @@ header {
     font-weight: 400;
     line-height: 24px;
     text-align: center;
+    align-items: center;
 }
 
 .habit-section-card-container {
@@ -390,6 +392,115 @@ header {
     font-weight: 400;
     line-height: 24px;
 }
+
+/* bmi-calc-section-container starts here */
+
+.bmi-calc-section-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-chart>h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.bmi-calculator-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 25px;
+    padding: 25px;
+    width: 85%;
+}
+
+.bmi-chart-table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.bmi-chart-table,
+th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-calc-form {
+    width: 55%;
+}
+
+.bmi-calc-form,
+input,
+select,option{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.bmi-calc-form,option{
+    color: black;
+}
+
+
+
+.bmi-calc-form>h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.form-field {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    height: 55px;
+    margin: 10px;
+    border: none;
+}
+
+.input-field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: stretch;
+    width: 100%;
+}
+
+
 
 
 
@@ -753,61 +864,62 @@ header {
     }
 
     /* review-section starts here*/
-.review-section-container {
-    margin: 0 auto;
-    margin-top: 5%;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .review-section-container {
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.review-card-container {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5%;
-}
+    .review-card-container {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+    }
 
-.review-card {
-    text-align: center;
-    padding: 25px;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    margin: 15px;
-}
+    .review-card {
+        text-align: center;
+        padding: 25px;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        margin: 15px;
+    }
 
-.review-img>img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-}
+    .review-img>img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
 
-.client-name {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 120%;
-}
+    .client-name {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+    }
 
-.client-review {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-}
-.review-section-container>a>button{
-    width: 150px;
-}
+    .client-review {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .review-section-container>a>button {
+        width: 150px;
+    }
 
 
 }
