@@ -404,7 +404,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    background: rgb(34, 34, 34);
 }
 
 .bmi-title-container {
@@ -429,7 +428,8 @@ header {
     padding: 0;
     margin: 25px;
     padding: 25px;
-    width: 85%;
+    width: 100%;
+    background: rgb(34, 34, 34);
 }
 
 .bmi-chart-table,
@@ -462,7 +462,8 @@ th {
 
 .bmi-calc-form,
 input,
-select,option{
+select,
+option {
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
     font-size: 16px;
@@ -470,7 +471,8 @@ select,option{
     line-height: 22px;
 }
 
-.bmi-calc-form,option{
+.bmi-calc-form,
+option {
     color: black;
 }
 
@@ -500,6 +502,66 @@ select,option{
     width: 100%;
 }
 
+/* our-team-section-container starts here*/
+.our-team-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team-img-container {
+    width: 75%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.our-team-img-card{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-team-img>img {
+    margin: 0 auto;
+    position: relative;
+    width: 426.67px;
+    height: 352px;
+    border-radius: 18px;
+}
+
+.our-team-name {
+    position: absolute;
+    color: white;
+    margin-top: -70px;
+    padding-left: 25px;
+}
+
+.our-team-img>p{
+    position: absolute;
+    text-align: left;
+    margin-top: -40px;
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -523,7 +585,7 @@ select,option{
 
     main {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     header {
@@ -919,6 +981,110 @@ select,option{
 
     .review-section-container>a>button {
         width: 150px;
+    }
+
+    /* bmi-calc-section-container starts here */
+
+    .bmi-calc-section-container {
+        margin: 0 auto;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .bmi-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .bmi-chart>h2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .bmi-calculator-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        background: rgb(34, 34, 34);
+    }
+
+    .bmi-chart-table,
+    th,
+    td {
+        border-collapse: collapse;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 25px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    .bmi-chart-table,
+    th {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .bmi-calc-form {
+        width: 95%;
+        margin-bottom: 7%;
+    }
+
+    .bmi-calc-form,
+    input,
+    select,
+    option {
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .bmi-calc-form,
+    option {
+        color: black;
+    }
+
+
+
+    .bmi-calc-form>h2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .form-field {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 95%;
+        height: 55px;
+        margin: 10px;
+        border: none;
+    }
+
+    .input-field {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: stretch;
+        width: 100%;
     }
 
 
