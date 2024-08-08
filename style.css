@@ -11,10 +11,9 @@
         "slnt" 0;
 }
 
-*{
-}
+* {}
 
-html{
+html {
     width: 99%;
 }
 
@@ -562,6 +561,89 @@ option {
     width: 10%;
 }
 
+/* footer-container starts here */
+
+.footer-container {
+    margin-top: 5%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content-container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer-title-container {
+    width: 80%;
+}
+
+.footer-title-container>h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.3rem;
+    font-weight: 800;
+    line-height: 120%;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.footer-title-container>p {
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer-service-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.footer-service-container>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.footer-service-container>a {
+    text-decoration: none;
+    margin-bottom: 10%;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.footer-borderline{
+    margin: 0 auto;
+    width: 75%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 5%;
+}
+.footer-copyright{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.footer-copyright>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 
 
 
@@ -585,11 +667,12 @@ option {
 /* mobile responsive media*/
 @media screen and (max-width: 576px) {
 
-    *{
-    }
-    html{
+    * {}
+
+    html {
         width: 100%;
     }
+
     body {
         background: rgb(0, 0, 0);
         width: 98%;
@@ -1118,12 +1201,13 @@ option {
         margin: 0 auto;
         margin-top: 45px;
     }
-    .our-team-img-card{
+
+    .our-team-img-card {
         display: flex;
         flex-direction: column;
     }
 
-    
+
 
     .our-team-img>img {
         margin: 0 auto;
@@ -1148,22 +1232,25 @@ option {
         padding-left: 25px;
     }
 
-    .res-hide{
+    .res-hide {
         display: none;
         visibility: hidden;
         margin-bottom: 0;
     }
 
-    .childe1{
+    .childe1 {
         order: 1;
     }
-    .childe2{
+
+    .childe2 {
         order: 3;
     }
-    .childe3{
+
+    .childe3 {
         order: 2;
     }
-    .childe4{
+
+    .childe4 {
         order: 4;
     }
 
