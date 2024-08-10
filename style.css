@@ -240,6 +240,10 @@ header {
     padding: 15px;
     color: rgb(230, 83, 60);
     margin-top: 55px;
+    position: relative;
+}
+.small-card2>div>span>img{
+    width: 25px;
 }
 
 /* habit section starts here */
@@ -885,7 +889,10 @@ option {
         padding: 15px;
         color: rgb(230, 83, 60);
         margin-top: 55px;
-        font-size: .4rem;
+    }
+    .small-card2>div>span>img{
+        width: 25px;
+        padding-top: 20%;
     }
 
 
